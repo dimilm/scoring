@@ -23,7 +23,7 @@ export class ScorelistComponent implements OnInit {
   }
 
   getMembers():void{
-    this.members = this.scoreMemberService.getScoreMembers();
+    this.scoreMemberService.getScoreMembers().subscribe(members => this.members = members);
   }
 
   onSelect(member: ScoreMember): void {
