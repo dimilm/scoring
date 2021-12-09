@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SCORE_MEMBERS } from '../mock/mock-score-members';
+import { SCORE_MEMBERS } from '../mock/mock-score';
 import { ScoreMember } from '../model/score-member';
 import { ScoreMemberService } from '../service/score-member.service';
 

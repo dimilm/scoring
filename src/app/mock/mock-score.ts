@@ -1,3 +1,4 @@
+import { GameRound } from "../model/game-round";
 import { ScoreMember } from "../model/score-member";
 
 export const SCORE_MEMBERS: ScoreMember[] = [
@@ -12,4 +13,11 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 18, name: 'Mischa', score: 0 },
   { id: 19, name: 'Christian', score: 1 }
   
+];
+
+
+export const GAME_ROUNDS: GameRound [] = [
+  { id: 1, name: 'Runde 1',  date: '09.12.2021', order: 1 , 
+   task: 'Wie kann man mit 2 Eimern (5 Liter und 3 Liter) ganau 4 Liter abmessen?',
+   winner:  ['Katja', 'Christian', 'Polina', 'Katja (FF)']}
 ];
