@@ -1,0 +1,9 @@
+<h2>Punkte: Christmas-Challenge bis Weihnachten </h2>
+<ul class="members">
+  <li *ngFor="let member of members"
+    [class.selected]="member === selectedMember"
+    (click)="onSelect(member)">
+    <span class="badge">{{member.score}}</span> {{member.name}}
+  </li>
+</ul>
+
