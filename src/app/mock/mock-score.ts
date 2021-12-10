@@ -20,7 +20,7 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '09.12.2021',
     order: 1,
     task: 'Wie kann man mit 2 Eimern (5 Liter und 3 Liter) ganau 4 Liter abmessen?',
-    winner: ['Katja', 'Christian', 'Polina', 'Katja (FF)']
+    winner: ['Katja', 'Christian', 'Polina', 'Katja (FF)', 'Lisa']
   },
 
   {
