@@ -9,25 +9,22 @@ import { ScoreMemberService } from '../service/score-member.service';
   styleUrls: ['./scorelist.component.scss']
 })
 export class ScorelistComponent implements OnInit {
-
-  
   members: ScoreMember[] = [];
   selectedMember!: ScoreMember;
 
-  constructor(private scoreMemberService: ScoreMemberService) { 
-    
-  }
+  constructor(private scoreMemberService: ScoreMemberService) {}
 
   ngOnInit(): void {
     this.getMembers();
   }
 
-  getMembers():void{
-    this.scoreMemberService.getScoreMembers().subscribe(members => this.members = members);
+  getMembers(): void {
+    this.scoreMemberService
+      .getScoreMembers()
+      .subscribe((members) => (this.members = members));
   }
 
   onSelect(member: ScoreMember): void {
     this.selectedMember = member;
   }
-
 }

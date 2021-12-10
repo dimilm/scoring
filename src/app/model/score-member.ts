@@ -1,5 +1,5 @@
 export interface ScoreMember {
-    id: number;
-    name: string;
-    score: number;
-  }
+  id: number;
+  name: string;
+  score: number;
+}

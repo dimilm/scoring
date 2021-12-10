@@ -8,16 +8,17 @@ import { GameRoundService } from '../service/game-round.service';
   styleUrls: ['./game-round-list.component.scss']
 })
 export class GameRoundListComponent implements OnInit {
+  gameRounds: GameRound[] = [];
 
-  gameRounds: GameRound[]=[];
-  
-  constructor(private gameRoundService: GameRoundService) { }
+  constructor(private gameRoundService: GameRoundService) {}
 
   ngOnInit(): void {
     this.loadGameRounds();
   }
 
-  loadGameRounds():void{
-    this.gameRoundService.getGameRounds().subscribe(gr => this.gameRounds = gr);
+  loadGameRounds(): void {
+    this.gameRoundService
+      .getGameRounds()
+      .subscribe((gr) => (this.gameRounds = gr));
   }
 }

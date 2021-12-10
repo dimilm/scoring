@@ -7,10 +7,9 @@ import { GameRound } from '../model/game-round';
   providedIn: 'root'
 })
 export class GameRoundService {
+  constructor() {}
 
-  constructor() { }
-
-  getGameRounds():Observable<GameRound[]>{
+  getGameRounds(): Observable<GameRound[]> {
     const gameRounds = of(GAME_ROUNDS);
     return gameRounds;
   }

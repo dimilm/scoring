@@ -7,16 +7,9 @@ import { ScorelistComponent } from './scorelist/scorelist.component';
 import { GameRoundListComponent } from './game-round-list/game-round-list.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ScorelistComponent,
-    GameRoundListComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, ScorelistComponent, GameRoundListComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
