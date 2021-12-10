@@ -29,6 +29,6 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '10.12.2021',
     order: 2,
     task: 'Hier stehen Polina, Lisa, Christian und Mischa mit warmen Mützen. Sie wissen, dass es 2 rote und 2 blau Mützen gibt, aber sie wissen nicht welche sie anhaben. Polina sieht vor sich Lisa und Christian, Lisa sieht nur Christian und Christian mit Mischa sehen nur die Wand. Frage: Wer als erster sagt ganz genau welche Farbe seine Mütze hat?',
-    winner: ['Katja']
+    winner: ['Katja', 'Polina', 'Katja (FF)', 'Lisa']
   }
 ];
