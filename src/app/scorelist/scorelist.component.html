@@ -1,10 +1,10 @@
 <h2>Christmas-Challenge Runde 2</h2>
 <ul class="members">
-  <li *ngFor="let member of members"
+  <li
+    *ngFor="let member of members"
     [class.selected]="member === selectedMember"
-    (click)="onSelect(member)">
-    <span class="badge">{{member.score}}</span> {{member.name}}
+    (click)="onSelect(member)"
+  >
+    <span class="badge">{{ member.score }}</span> {{ member.name }}
   </li>
 </ul>
-
-
