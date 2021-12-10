@@ -1,7 +1,11 @@
 <h2>Aufgaben:</h2>
 
-<ul>
-    <li *ngFor="let game of gameRounds">
-      <span>{{game.name}}:</span><p></p> {{game.task}}<p></p>
-    </li>
-  </ul>
+
+    <div *ngFor="let game of gameRounds">
+      <h4>{{game.name}} ({{game.date}}):</h4><p></p> {{game.task}}<p></p>
+      <span>Richtig gelöst:</span>
+      <div *ngFor="let win of game.winner">
+          {{win}}
+      </div>
+      <p></p>
+    </div>
