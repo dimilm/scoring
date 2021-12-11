@@ -2,11 +2,11 @@ import { GameRound } from '../model/game-round';
 import { ScoreMember } from '../model/score-member';
 
 export const SCORE_MEMBERS: ScoreMember[] = [
-  { id: 11, name: 'Opa & Oma', score: 0 },
+  { id: 11, name: 'Opa & Oma', score: 1 },
   { id: 20, name: 'Tante Katja', score: 0 },
   { id: 13, name: 'Fedja', score: -1 },
-  { id: 14, name: 'Katja', score: 2 },
-  { id: 15, name: 'Katja (Fedjas Frau)', score: 2 },
+  { id: 14, name: 'Katja', score: 3 },
+  { id: 15, name: 'Katja (Fedjas Frau)', score: 3 },
   { id: 16, name: 'Lisa', score: 2 },
   { id: 17, name: 'Polina', score: 2 },
   { id: 18, name: 'Mischa', score: 0 },
@@ -40,7 +40,9 @@ export const GAME_ROUNDS: GameRound[] = [
     name: 'Runde 3',
     date: '11.12.2021',
     order: 3,
-    task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korregt wird?',
-    winner: ['']
+    task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korrekt wird?',
+    winner: ['Opa & Oma', 'Katja', 'Katja (FF)']
   }
 ];
+
+//Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...
