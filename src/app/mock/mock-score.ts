@@ -34,5 +34,14 @@ export const GAME_ROUNDS: GameRound[] = [
     solution:
       'Polina sieht 2 Mützen vor sich und schweigt. Da Polina nichts sagt, weiß Lisa, dass vor Polina beide Mützen unterschiedliche Farben haben müssten, dadurch kann Lisa ihre Farbe genau rausfinden.',
     winner: ['Katja', 'Polina', 'Katja (FF)', 'Lisa']
+  },
+  {
+    id: 3,
+    name: 'Runde 3',
+    date: '11.12.2021',
+    order: 3,
+    task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korregt wird?',
+    solution: '',
+    winner: ['']
   }
 ];
