@@ -10,7 +10,7 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 16, name: 'Lisa', score: 2 },
   { id: 17, name: 'Polina', score: 2 },
   { id: 18, name: 'Mischa', score: 0 },
-  { id: 19, name: 'Christian', score: 1 }
+  { id: 19, name: 'Christian', score: 2 }
 ];
 
 export const GAME_ROUNDS: GameRound[] = [
@@ -41,7 +41,7 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '11.12.2021',
     order: 3,
     task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korrekt wird?',
-    winner: ['Opa & Oma', 'Katja', 'Katja (FF)']
+    winner: ['Opa & Oma', 'Katja', 'Katja (FF)', 'Christian']
   }
 ];
 
