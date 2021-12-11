@@ -1,5 +1,5 @@
 <div *ngFor="let game of gameRounds">
-  <mat-card class="example-card">
+  <mat-card class="task-card">
     <mat-card-title-group>
       <mat-card-title>Aufgabe {{ game.name }}</mat-card-title>
       <mat-card-subtitle>{{ game.date }}</mat-card-subtitle>
@@ -7,11 +7,10 @@
     <mat-card-content>
       {{ game.task }}
       <p></p>
-      <h4>Lösung:</h4>
+      <b>Lösung:</b>
       {{ game.solution }}
-
       <p></p>
-      <h4>Richtig gelöst:</h4>
+      <b>Richtig gelöst:</b>
       <div *ngFor="let win of game.winner">
         {{ win }}
       </div>
