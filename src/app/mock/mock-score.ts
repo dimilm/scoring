@@ -41,7 +41,6 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '11.12.2021',
     order: 3,
     task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korregt wird?',
-    solution: '',
     winner: ['']
   }
 ];

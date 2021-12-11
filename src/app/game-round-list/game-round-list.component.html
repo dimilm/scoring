@@ -9,7 +9,13 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <p>{{ game.task }}</p>
-
+    <p>
+      <span *ngIf="!game.solution">
+        <a mat-raised-button color="primary" href="https://wa.me/4917645965810"
+          >Lösung senden</a
+        ></span
+      >
+    </p>
     <b>Lösung:</b>
     {{ game.solution }}
     <p></p>

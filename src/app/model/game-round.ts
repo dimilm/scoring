@@ -4,6 +4,6 @@ export interface GameRound {
   date: string;
   order: number;
   task: string;
-  solution: string;
+  solution?: string;
   winner: string[];
 }
