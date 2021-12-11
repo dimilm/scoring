@@ -1,19 +1,21 @@
-<div *ngFor="let game of gameRounds">
-  <mat-card class="task-card">
-    <mat-card-title-group>
-      <mat-card-title>Aufgabe {{ game.name }}</mat-card-title>
-      <mat-card-subtitle>{{ game.date }}</mat-card-subtitle>
-    </mat-card-title-group>
-    <mat-card-content>
-      {{ game.task }}
-      <p></p>
-      <b>Lösung:</b>
-      {{ game.solution }}
-      <p></p>
-      <b>Richtig gelöst:</b>
-      <div *ngFor="let win of game.winner">
-        {{ win }}
-      </div>
-    </mat-card-content>
-  </mat-card>
-</div>
+<mat-accordion *ngFor="let game of gameRounds">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ game.name }}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{ game.date }}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>{{ game.task }}</p>
+
+    <b>Lösung:</b>
+    {{ game.solution }}
+    <p></p>
+    <b>Richtig gelöst:</b>
+    <div *ngFor="let win of game.winner">
+      {{ win }}
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>

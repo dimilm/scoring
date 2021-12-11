@@ -21,7 +21,7 @@ export const GAME_ROUNDS: GameRound[] = [
     order: 1,
     task: 'Wie kann man mit 2 Eimern (5 Liter und 3 Liter) ganau 4 Liter abmessen?',
     solution:
-      '5L-Eimer voll füllen, dann ihn in 3L-Eimer giessen bis 3L-Eimer komplett voll wird. 3L-Eimer leeren, nun die restlichen 2L aus dem 5L-Eimer in den leeren 3L-Eimer eingiessen. 5L-Eimer voll füllen und daraus das Wasse in den 3L-Eimer eingiessen bis er nun komplett voll wird. Es bleiben 4L im 5L-Eimer übrig.',
+      '5L-Eimer voll füllen, dann ihn in 3L-Eimer gießen bis 3L-Eimer komplett voll wird. 3L-Eimer leeren, nun die restlichen 2L aus dem 5L-Eimer in den leeren 3L-Eimer gießen. 5L-Eimer voll füllen und daraus das Wasser in den 3L-Eimer gießen bis er voll wird. Es bleiben 4L im 5L-Eimer übrig - voila ;-).',
     winner: ['Katja', 'Christian', 'Polina', 'Katja (FF)', 'Lisa']
   },
 
@@ -31,7 +31,8 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '10.12.2021',
     order: 2,
     task: 'Hier stehen Polina, Lisa, Christian und Mischa mit warmen Mützen. Sie wissen, dass es 2 rote und 2 blau Mützen gibt, aber sie wissen nicht welche sie anhaben. Polina sieht vor sich Lisa und Christian, Lisa sieht nur Christian und Christian mit Mischa sehen nur die Wand. Frage: Wer als erster sagt ganz genau welche Farbe seine Mütze hat?',
-    solution: '',
+    solution:
+      'Polina sieht 2 Mützen vor sich und schweigt. Da Polina nichts sagt, weiß Lisa, dass vor Polina beide Mützen unterschiedliche Farben haben müssten, dadurch kann Lisa ihre Farbe genau rausfinden.',
     winner: ['Katja', 'Polina', 'Katja (FF)', 'Lisa']
   }
 ];
