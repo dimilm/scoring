@@ -12,6 +12,8 @@ export class ScorelistComponent implements OnInit {
   members: ScoreMember[] = [];
   selectedMember!: ScoreMember;
 
+  displayedColumns: string[] = ['score', 'name'];
+
   constructor(private scoreMemberService: ScoreMemberService) {}
 
   ngOnInit(): void {

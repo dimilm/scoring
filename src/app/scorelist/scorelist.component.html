@@ -1,5 +1,5 @@
 <h2>Christmas-Challenge Runde 2</h2>
-<ul class="members">
+<!-- <ul class="members">
   <li
     *ngFor="let member of members"
     [class.selected]="member === selectedMember"
@@ -7,4 +7,24 @@
   >
     <span class="badge">{{ member.score }}</span> {{ member.name }}
   </li>
-</ul>
+</ul> -->
+
+<table mat-table [dataSource]="members" class="mat-elevation-z8">
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Score Column -->
+  <ng-container matColumnDef="score">
+    <th mat-header-cell *matHeaderCellDef>Punkte</th>
+    <td mat-cell *matCellDef="let element">{{ element.score }}</td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
