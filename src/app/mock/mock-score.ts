@@ -8,7 +8,7 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 14, name: 'Katja', score: 3 },
   { id: 15, name: 'Katja (Fedjas Frau)', score: 3 },
   { id: 16, name: 'Lisa', score: 3 },
-  { id: 17, name: 'Polina', score: 2 },
+  { id: 17, name: 'Polina', score: 3 },
   { id: 18, name: 'Mischa', score: 0 },
   { id: 19, name: 'Christian', score: 2 }
 ];
@@ -41,7 +41,17 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '11.12.2021',
     order: 3,
     task: 'Ein kleiner Chinese schaut sich folgende Rechnung nachdenklich an: 3+5+5+5+7=560. Ist es möglich mit nur einem Strich diesen Term so zu ergänzen, dass er korrekt wird?',
-    winner: ['Opa & Oma', 'Katja', 'Katja (FF)', 'Christian', 'Lisa']
+    winner: ['Opa & Oma', 'Katja', 'Katja (FF)', 'Christian', 'Lisa', 'Polina'],
+    solution:
+      '3+5+5+547=560 oder 3+5+545+7=560 oder 3+545+5+7=560 oder 3+5+5+5+7&ne;560'
+  },
+  {
+    id: 4,
+    name: 'Runde 4',
+    date: '12.12.2021',
+    order: 4,
+    task: 'Heute aus der Reihe der Sequenzen ;-). Was steht hinter dem Fragezeichen?<font color="red"> Es ist keine 6!</font> <table> <tr><th>1</th><th>3</th><th>5</th></tr> <tr><th>2</th> <th>4</th><th>?</th></tr></table>',
+    winner: []
   }
 ];
 

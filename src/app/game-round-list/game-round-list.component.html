@@ -8,7 +8,9 @@
         {{ game.date }}
       </mat-panel-description>
     </mat-expansion-panel-header>
-    <p>{{ game.task }}</p>
+
+    <div [innerHTML]="game.task"></div>
+
     <p>
       <span *ngIf="!game.solution">
         <a mat-raised-button color="primary" href="https://wa.me/4917645965810"
@@ -17,7 +19,8 @@
       >
     </p>
     <b>Lösung:</b>
-    {{ game.solution }}
+    <div [innerHTML]="game.solution"></div>
+
     <p></p>
     <b>Richtig gelöst:</b>
     <div *ngFor="let win of game.winner">
