@@ -55,6 +55,12 @@ export const GAME_ROUNDS: GameRound[] = [
     solution:
       ' <table> <tr><th>1</th><th>3</th><th>5</th></tr> <tr><th>2</th> <th>4</th><th>R</th></tr></table>'
   }
+  // {
+  //   id: 5,
+  //   name: 'Runde 5',
+  //   date: '14.12.2021',
+  //   order: 5,
+  //   task: 'Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...',
+  //   winner: []
+  // }
 ];
-
-//Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...

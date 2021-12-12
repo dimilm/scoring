@@ -10,6 +10,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [AppComponent, ScorelistComponent, GameRoundListComponent],
@@ -20,7 +22,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatTableModule,
     MatCardModule,
     MatExpansionModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
