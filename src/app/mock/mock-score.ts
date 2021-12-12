@@ -5,12 +5,12 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 11, name: 'Opa & Oma', score: 1 },
   { id: 20, name: 'Tante Katja', score: 0 },
   { id: 13, name: 'Fedja', score: -1 },
-  { id: 14, name: 'Katja', score: 3 },
-  { id: 15, name: 'Katja (Fedjas Frau)', score: 3 },
-  { id: 16, name: 'Lisa', score: 3 },
-  { id: 17, name: 'Polina', score: 3 },
+  { id: 14, name: 'Katja', score: 4 },
+  { id: 15, name: 'Katja (Fedjas Frau)', score: 4 },
+  { id: 16, name: 'Lisa', score: 4 },
+  { id: 17, name: 'Polina', score: 4 },
   { id: 18, name: 'Mischa', score: 0 },
-  { id: 19, name: 'Christian', score: 2 }
+  { id: 19, name: 'Christian', score: 3 }
 ];
 
 export const GAME_ROUNDS: GameRound[] = [
@@ -51,7 +51,9 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '12.12.2021',
     order: 4,
     task: 'Heute aus der Reihe der Sequenzen ;-). Was steht hinter dem Fragezeichen?<font color="red"> Es ist keine 6!</font> <table> <tr><th>1</th><th>3</th><th>5</th></tr> <tr><th>2</th> <th>4</th><th>?</th></tr></table>',
-    winner: []
+    winner: ['Katja', 'Christian', 'Polina', 'Katja (FF)', 'Lisa'],
+    solution:
+      ' <table> <tr><th>1</th><th>3</th><th>5</th></tr> <tr><th>2</th> <th>4</th><th>R</th></tr></table>'
   }
 ];
 
