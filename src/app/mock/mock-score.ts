@@ -8,7 +8,7 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 14, name: 'Katja', score: 5 },
   { id: 15, name: 'Katja (Fedjas Frau)', score: 5 },
   { id: 16, name: 'Lisa', score: 4 },
-  { id: 17, name: 'Polina', score: 4 },
+  { id: 17, name: 'Polina', score: 5 },
   { id: 18, name: 'Mischa', score: 0 },
   { id: 19, name: 'Christian', score: 3 }
 ];
@@ -61,7 +61,7 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '20.12.2021',
     order: 5,
     task: 'Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...',
-    winner: ['Katja', 'Katja (FF)']
+    winner: ['Katja', 'Katja (FF)', 'Polina']
   }
   // {
   //   id: 6,
