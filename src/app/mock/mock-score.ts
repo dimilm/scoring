@@ -5,8 +5,8 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 11, name: 'Opa & Oma', score: 1 },
   { id: 20, name: 'Tante Katja', score: 0 },
   { id: 13, name: 'Fedja', score: -1 },
-  { id: 14, name: 'Katja', score: 4 },
-  { id: 15, name: 'Katja (Fedjas Frau)', score: 4 },
+  { id: 14, name: 'Katja', score: 5 },
+  { id: 15, name: 'Katja (Fedjas Frau)', score: 5 },
   { id: 16, name: 'Lisa', score: 4 },
   { id: 17, name: 'Polina', score: 4 },
   { id: 18, name: 'Mischa', score: 0 },
@@ -58,9 +58,17 @@ export const GAME_ROUNDS: GameRound[] = [
   {
     id: 5,
     name: 'Runde 5',
-    date: '14.12.2021',
+    date: '20.12.2021',
     order: 5,
     task: 'Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...',
-    winner: []
+    winner: ['Katja']
   }
+  // {
+  //   id: 6,
+  //   name: 'Runde 6',
+  //   date: '21.12.2021',
+  //   order: 6,
+  //   task: 'In welcher Spalte ist die graue Farbe dunkler, Spalte 1 oder Spalte 2?',
+  //   winner: []
+  // }
 ];
