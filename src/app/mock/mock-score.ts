@@ -61,7 +61,7 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '20.12.2021',
     order: 5,
     task: 'Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...',
-    winner: ['Katja']
+    winner: ['Katja', 'Katja (FF)']
   }
   // {
   //   id: 6,
