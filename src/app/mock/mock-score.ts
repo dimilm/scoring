@@ -62,13 +62,13 @@ export const GAME_ROUNDS: GameRound[] = [
     order: 5,
     task: 'Was kommt als nächstes? Bestimme die nächste Zahl: 4, 5, 9, 5, 14, 5, ...',
     winner: ['Katja', 'Katja (FF)', 'Polina']
+  },
+  {
+    id: 6,
+    name: 'Runde 6',
+    date: '21.12.2021',
+    order: 6,
+    task: 'In welcher Spalte ist die graue Farbe dunkler, Spalte 1 oder Spalte 2?',
+    winner: []
   }
-  // {
-  //   id: 6,
-  //   name: 'Runde 6',
-  //   date: '21.12.2021',
-  //   order: 6,
-  //   task: 'In welcher Spalte ist die graue Farbe dunkler, Spalte 1 oder Spalte 2?',
-  //   winner: []
-  // }
 ];
