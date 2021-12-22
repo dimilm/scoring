@@ -1,3 +1,4 @@
+import { getAttrsForDirectiveMatching } from '@angular/compiler/src/render3/view/util';
 import { GameRound } from '../model/game-round';
 import { ScoreMember } from '../model/score-member';
 
@@ -5,10 +6,10 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 11, name: 'Opa & Oma', score: 1 },
   { id: 20, name: 'Tante Katja', score: 0 },
   { id: 13, name: 'Fedja', score: -1 },
-  { id: 14, name: 'Katja', score: 5 },
-  { id: 15, name: 'Katja (Fedjas Frau)', score: 5 },
-  { id: 16, name: 'Lisa', score: 4 },
-  { id: 17, name: 'Polina', score: 5 },
+  { id: 14, name: 'Katja', score: 6 },
+  { id: 15, name: 'Katja (Fedjas Frau)', score: 6 },
+  { id: 16, name: 'Lisa', score: 5 },
+  { id: 17, name: 'Polina', score: 6 },
   { id: 18, name: 'Mischa', score: 0 },
   { id: 19, name: 'Christian', score: 3 }
 ];
@@ -70,6 +71,15 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '21.12.2021',
     order: 6,
     task: 'In welcher Spalte ist die graue Farbe dunkler, Spalte 1 oder Spalte 2?',
+    winner: ['Katja', 'Katja (FF)', 'Polina', 'Lisa'],
+    solution: 'In den beiden Spalten ist die Farbe grau gleich'
+  },
+  {
+    id: 7,
+    name: 'Runde 7',
+    date: '22.12.2021',
+    order: 7,
+    task: 'Das gelbe Rad ist fest und kann sich nicht drehen, das rote Rad rollt an dem gelben ab. Wieviele mal hat es sich nach einer Runde um die eigene Achse gedreht?',
     winner: []
   }
 ];
