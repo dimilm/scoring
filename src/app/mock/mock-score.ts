@@ -11,7 +11,7 @@ export const SCORE_MEMBERS: ScoreMember[] = [
   { id: 16, name: 'Lisa', score: 6 },
   { id: 17, name: 'Polina', score: 6 },
   { id: 18, name: 'Mischa', score: 0 },
-  { id: 19, name: 'Christian', score: 3 }
+  { id: 19, name: 'Christian', score: 4 }
 ];
 
 export const GAME_ROUNDS: GameRound[] = [
@@ -80,7 +80,7 @@ export const GAME_ROUNDS: GameRound[] = [
     date: '22.12.2021',
     order: 7,
     task: 'Das gelbe Rad ist fest und kann sich nicht drehen, das rote Rad rollt an dem gelben ab. Wieviele mal hat es sich nach einer Runde um die eigene Achse gedreht?',
-    winner: ['Lisa'],
+    winner: ['Lisa', 'Christian'],
     solution:
       'Würde das kleine Zahnrad mit seinen acht Zähnen an einer geraden Zahnstange mit 24 Zähnen einmal von vorne nach hinten abgerollt werden, würde es sich dreimal um die eigene Achse drehen, denn 24/8 = 3. Doch die 24 Zähne liegen nicht auf einer geraden Zahnstange, sondern entlang des Umfangs eines Zahnrades. Dadurch kommt beim Abrollen noch eine weitere Drehung hinzu. Das kleine Zahnrad dreht sich also bei einer Umrundung des großen Zahnrades viermal um die eigene Achse.'
   }
